@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    background-color:rgb(197, 233, 233);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgba(32, 46, 46, 0.849);
+}
+h2{
+    color: rgb(45, 56, 56);
+}
+
+#principal{
+    text-align: center;
+}
+
+div{
+    display: inline-block;
+    margin: 40px;
+}
+
+#div1{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    border-radius: 20px;
+    height: 500px;
+    padding: 20px;
+}
+#div2{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 20px;
+}
+

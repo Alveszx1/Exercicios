@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+body{
+    background-image: linear-gradient(to left,#AAEAFA,#ABD1FA,#A591FA, #BFC7FA);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main{
+    background-color: white;
+    width: 530px;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 15px 15px rgba(128, 128, 128, 0.425);
+    margin: 50px;
+}
+h2{
+    font-family: "Baskervville SC", serif;
+    color: #798d99;}
+    
+#video iframe{
+    border-radius: 15px;
+}
+

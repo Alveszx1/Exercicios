@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@300&family=Playwrite+PL:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+TAS:wght@100..400&family=Playwrite+NZ:wght@100&family=Playwrite+PL:wght@100..400&display=swap');
+
+
+
+
+
+body{
+    background-image: linear-gradient(to left,#65B7E6,#B1B2E6);
+}
+
+main{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #505E66;
+    padding: 10px;
+    width: 600px;
+    margin: auto;
+}
+h1{
+    font-family: "Playwrite NZ", cursive;
+    color: #597D91;
+    text-align: center;
+
+}
+h2{
+    font-family: "Playwrite PL", cursive;
+    color: #505E66;
+
+}
+
+p{
+    font-family: "Playwrite AU TAS", cursive;
+    font-size: 15px;
+
+}
