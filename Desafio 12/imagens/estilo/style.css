@@ -35,9 +35,11 @@ html, body {
 
 header {
 
-    background-color: black;
+    background-image: url(../8d0962b4c16abe38905aa49334f1cd32.jpg);
 
-    color: white;
+    background-color: rgba(255, 255, 255, 0.411);
+
+    color: rgba(255, 255, 255, 0.856);
 
     text-align: center;
 
@@ -58,6 +60,9 @@ header > h1 {
 header > p {
 
     padding-bottom: 50px ;
+
+    font-size: 1.5em;
+
     font-family: var(--fonte2);
 
 }
@@ -80,11 +85,17 @@ section {
 
 }
 
+section > p  {
+
+    padding-bottom: 2em;
+    
+}
+
 section.normal {
 
     background-color: white;
 
-    color: black;
+    color: #295872;
     
 }
 
@@ -94,25 +105,54 @@ section.imagem {
 
     color: white;
 
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.432);
+
+    background-attachment: fixed;
+
 }
 
 section.imagem > p{
 
     display: inline-block;
 
-    background-color: rgba(0, 0, 0, 0.158);
+    background-color: rgba(0, 0, 0, 0.26);
 
     padding: 5px;
+
+    text-shadow: 2px 2px 0px black;
+
+    background-size: cover;
 
     
     
 }
 
+ #img01 {
+
+    background-image: url(../macbook-air-4k-breakwater-rocks-zjqpezpl1w4nb0vc.jpg);
+
+
+    background-position: center;
+
+    background-size: cover;
+ }
+
+ #img02 {
+
+    background-image: url(../austria-6934186_1920.jpg);
+
+    background-size: cover;
+
+    background-position: center;
+
+
+ }
+
 a {
 
     text-decoration: none;
 
-    color: white;
+    color: rgb(255, 255, 255);
 
     font-weight: bolder;
 
@@ -126,13 +166,15 @@ a:hover {
 
 footer {
 
-    background-color: black;
+    background-color: #8dbeda;
 
     text-align: center;
 
     color: white;
 
     padding: 10px;
+
+    background-image: url(../8d0962b4c16abe38905aa49334f1cd32.jpg);
 
    
 
