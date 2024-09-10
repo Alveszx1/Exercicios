@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+/* Todas as demais midias */
+
+
+@media print {
+
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main {
+
+        width: 90vw;
+        border: 2px solid black;
+    }
+
+    main::after {
+        content: 'Essa impressão foi feita através do site www.google.com.br';
+        text-decoration: overline;
+    }
+
+    main h1 { 
+
+        text-shadow: none;
+        color: black;
+
+    }
+
+
+
+
+
+
+
+
+
+    #celular { display: none;}
+    #tablet { display: none;}
+    #print {display: block;}
+    #pc {display: none;}
+    #tv {display: none;}
+
+    
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+         background-image: url(../back-tablet.jpg);
+    }
+
+    #celular { display: none;}
+    #tablet { display: block;}
+    #print {display: none;}
+    #pc {display: none;}
+    #tv {display: none;}
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+
+    body {
+        background-image: url(../back-pc.jpg);
+    }
+
+    #celular { display: none;}
+    #tablet { display: none;}
+    #print {display: none;}
+    #pc {display: block;}
+    #tv {display: none;}
+    
+}
+
+@media screen and (min-width: 1400px) {
+
+    body {
+
+        background-image: url(../back-tv.jpg);
+        
+    }
+
+   
+    
+    #celular { display: none;}
+    #tablet { display: none;}
+    #print {display: none;}
+    #pc {display: none;}
+    #tv {display: block;}
+}

@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+ </head>
+ <body>
+
+
+    <form action="cadastro.php" method="get" autocomplete="off">
+
+
+        <label for="ireg">Região</label>
+
+        <select name="select" id="iselect">
+
+
+            
+
+            <optgroup label="Sudeste">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </optgroup>
+            <optgroup label="Sul">
+                <option value="RS"> Rio Grande do Sul</option>
+            </optgroup>
+            <option value="MG"> Minas gerais </option>
+            <option value="SC"> Santa Catarina</option>
+
+
+        </select>
+
+        <p>
+            <label for="prof"> Profissão</label>
+            <input type="text" id="text" name="itext" list="idatalist">
+            <datalist id="idatalist">
+                <option>Administração</option>
+                <option> Pedreiro</option>
+                <option> Maquinista</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imens">Mensagem</label> <br>
+            <textarea name="mens" id="imens" placeholder="Digite sua mensagem"></textarea>
+        </p>
+    
+    
+    
+    </form>
+
+    se
+ </body>
+ </html>
