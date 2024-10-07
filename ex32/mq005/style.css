@@ -37,6 +37,7 @@ header > h1 {
 
 menu {
     display: none;
+    
 }
 
 
@@ -53,7 +54,6 @@ menu a {
     text-align: center;
     color: white;
     background-color: rgb(84, 96, 109);
-    border-top: 2px solid black;
 }
 
 menu a:hover {
